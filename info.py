@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://demo-gsmz.onrender.com/".format(FQDN)
+    URL = "https://daemon-otim.onrender.com/".format(FQDN)
 else:
-    URL = "https://demo-gsmz.onrender.com/".format(FQDN)
+    URL = "https://daemon-otim.onrender.com/".format(FQDN)
 
 
 
