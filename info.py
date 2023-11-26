@@ -18,21 +18,21 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '24830912'))
-API_HASH = environ.get('API_HASH', 'a1a1775593531b90850b8b82e3b14940')
+API_ID = int(environ.get('API_ID', '26068606'))
+API_HASH = environ.get('API_HASH', '14644edc9c3fa83fceb6a63af354ec35')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/17b9449c718b88e41eded.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/17b9449c718b88e41eded.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/47ccf36e05aa60f6aebc6.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/47ccf36e05aa60f6aebc6.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/17b9449c718b88e41eded.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/47ccf36e05aa60f6aebc6.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '809614790').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '809614790 5753303670').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001873195228').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -61,13 +61,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/teluguzoneofc')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/teluguzoneofc')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+LIYcBEE6vd5hNTBl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BSRips')
 TUTORIAL = environ.get('TUTORIAL', '')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002039649156'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/teluguzoneofc')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002141581884'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+LIYcBEE6vd5hNTBl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
