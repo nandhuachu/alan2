@@ -5,12 +5,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/TeluguZone/Daemon88
+  git clone https://github.com/TOICTONY/render
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /TeluguZone-FILTER-BOT 
+  git clone $UPSTREAM_REPO /MW_MoViE_BOT
 fi
-cd /TeluguZone-BOT 
+cd /MW_MoViE_BOT 
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
