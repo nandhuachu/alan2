@@ -20,7 +20,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://MoviiWrld.com'>MoviiWrld SERVER</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+ ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
 <b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
@@ -57,7 +57,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Bsrips)</code>
+<code>[Button Text](buttonurl:https://t.me/MoviiWrld)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -182,11 +182,11 @@ Nᴀᴍᴇ - {}"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️
     
-    𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝗒𝗈𝗎𝗋 𝖿𝖺𝗏 𝗆𝗈𝗏𝗂𝖾𝗌 𝗁𝖾𝗋𝖾 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 ⭐️
+𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝗒𝗈𝗎𝗋 𝖿𝖺𝗏 𝗆𝗈𝗏𝗂𝖾𝗌 𝗁𝖾𝗋𝖾 𝖠𝗇𝖽 𝖤𝗇𝗃𝗈𝗒 ⭐️
     
-    Example: Spyder 2017
+#Example: Spyder 2017
 
-    ☺️𝖧𝗈𝗉𝖾 𝖸𝗈𝗎 𝖤𝗇𝗃𝗈𝗒 𝖠𝗇𝖽 𝖲𝗍𝖺𝗒 𝖶𝗂𝗍𝗁 𝗎𝗌😉</b>"""
+☺️𝖧𝗈𝗉𝖾 𝖸𝗈𝗎 𝖤𝗇𝗃𝗈𝗒 𝖠𝗇𝖽 𝖲𝗍𝖺𝗒 𝖶𝗂𝗍𝗁 𝗎𝗌😉</b>"""
 
     SHORTLINK_INFO = """
 
@@ -219,8 +219,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
+=====================
+@MoviiWrld
+=====================
+Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
